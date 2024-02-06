@@ -1,0 +1,84 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <set>
+#include <map>
+
+#pragma GCC optimize("O3")
+#pragma GCC optimize("Ofast,unroll-loops")
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
+#pragma GCC target("avx,avx2,fma")
+
+#define input_txt                     \
+    freopen("input.txt", "r", stdin); \
+    freopen("output.txt", "w", stdout);
+
+#define b3dsh                \
+    ios::sync_with_stdio(0); \
+    cin.tie(0);              \
+    cout.tie(0);
+
+#define dpp(arr, val) memset(arr, val, sizeof(arr))
+#define ll long long
+#define ull unsigned long long
+#define dd double
+#define ld long double
+#define PQ priority_queue
+#define pii pair<int, int>
+#define pll pair<ll, ll>
+#define vii vector<int, int>
+#define vll vector<ll, ll>
+#define S second
+#define F first
+#define MP make_pair
+#define endl "\n"
+#define PI 3.14159265
+#define tests   \
+    ll t;       \
+    cin >> t;   \
+    ll i_t = 0; \
+    while (i_t++ < t)
+
+#define loop(n) for (ll i = 0; i < (n); i++)
+#define SetPre(n, x) cout << fixed << setprecision(n) << x
+#define forp(i, a, b) for (ll i = a; i < b; i++)
+#define forn(i, a, b) for (ll i = a; i > b; i--)
+#define yes cout << "YES" << endl
+#define no cout << "NO" << endl
+#define spc << " "
+#define sp << " " <<
+#define trav(i, a) for (auto &i : a)
+#define all(a) a.begin(), a.end()
+#define rall(a) a.rbegin(), a.rend()
+#define si(a) ((int)(a).size())
+#define ins insert
+#define pb push_back
+#define mp make_pair
+#define gcd(a, b) __gcd(a, b)
+#define mem(b, z) memset(b, z, sizeof(b))
+#define rn return
+
+using namespace std;
+
+// const int N = 2e5 + 4, inf = 1e9 + 7;
+
+void solve()
+{
+    ll n;
+    cin >> n;
+    ll res = (n * (n + 1)) / 2;
+    cout << res << endl;
+}
+
+int main()
+{
+    b3dsh;
+    ll t = 1;
+    // cin >> t;
+
+    while (t--)
+    {
+        solve();
+    }
+
+    rn 0;
+}
