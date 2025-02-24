@@ -38,6 +38,9 @@ Output:
 5. Commit your changes, push to the remote repository
 6. Create a pull request using GitHub website interface
 
+   ##solution:
+(n×(n+1))/2
+
 ## Need help?
 
 See [this video](https://www.youtube.com/watch?v=n43bagVuJPU) if you can't figure out how.
