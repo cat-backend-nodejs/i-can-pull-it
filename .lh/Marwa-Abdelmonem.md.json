@@ -1,0 +1,18 @@
+{
+    "sourceFile": "Marwa-Abdelmonem.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1751113046342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1751113046342,
+            "name": "Commit-0",
+            "content": "#include <iostream>\r\nusing namespace std;\r\nint main()\r\n{\r\n    int n; cin>>n;\r\n    cout<< (n * (n-1)) / 2;\r\n}"
+        }
+    ]
+}
